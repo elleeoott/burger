@@ -1,0 +1,25 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Package dependencies for burger app",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "Burger",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edarst/burger.git"
+  },
+  "author": "Evan Darst, 2018",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edarst/burger/issues"
+  },
+  "homepage": "https://github.com/edarst/burger#readme"
+}
