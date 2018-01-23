@@ -4,18 +4,30 @@ var mysql = require("mysql");
 
 //establishing connection to database
 
-var connect;
-
-connection = mysql.createConnection ({
+var connecting = mysql.createConnection ({
 
     port: 3000,
     host: "localhost",
     user: root,
     password: @@Widget1188
     database: "burgers_db"
-})
+});
 
 //connect to mySQL
+
+connecting.connect(function(err) {
+
+    if (err) {
+
+        console.log("SQL CONNECTION ERROR");
+
+    }
+
+    else {
+
+        console.log("Connected!");
+    }
+});
 
 //export
 
