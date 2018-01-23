@@ -6,6 +6,15 @@ var mysql = require("mysql");
 
 var connect;
 
+connection = mysql.createConnection ({
+
+    port: 3000,
+    host: "localhost",
+    user: root,
+    password: @@Widget1188
+    database: "burgers_db"
+})
+
 //connect to mySQL
 
 //export
